@@ -15,7 +15,7 @@ const AppRouter = () => (
   <BrowserRouter>
     <Wrapper>
       <Switch>
-        <Route path="/" component={App} exact={true} />
+        <Route path="/ciccc-react-midterm-team-project/" component={App} exact={true} />
         <Route path="/detail/:id" component={Detail} />
         <Route path="/cart" component={Cart} />
         <Route path="/search/:keywords" component={SearchResult}/>
