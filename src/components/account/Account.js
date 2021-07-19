@@ -54,7 +54,7 @@ const Account = () => {
                                 <li><h3>Account Detail</h3></li>
                                 <li><span>Name:</span> <span>{user.providerData[0].displayName}</span></li>
                                 <li><span>Email:</span> <span>{user.providerData[0].email}</span></li>
-                                <Link to='/edit_account'>Edit Account</Link><br />
+                                <Link to='/ciccc-react-midterm-team-project/edit_account'>Edit Account</Link><br />
                                 <button><div onClick={startLogout} className="auth-button">Logout</div></button>
                             </ul>
                         </div>
