@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ciccc-react-midterm-team-project/static/css/main.0cf39198.chunk.css",
-    "main.js": "/ciccc-react-midterm-team-project/static/js/main.a5e3164b.chunk.js",
-    "main.js.map": "/ciccc-react-midterm-team-project/static/js/main.a5e3164b.chunk.js.map",
+    "main.js": "/ciccc-react-midterm-team-project/static/js/main.bc2ff706.chunk.js",
+    "main.js.map": "/ciccc-react-midterm-team-project/static/js/main.bc2ff706.chunk.js.map",
     "runtime-main.js": "/ciccc-react-midterm-team-project/static/js/runtime-main.7c94df1a.js",
     "runtime-main.js.map": "/ciccc-react-midterm-team-project/static/js/runtime-main.7c94df1a.js.map",
     "static/js/2.c451dcaa.chunk.js": "/ciccc-react-midterm-team-project/static/js/2.c451dcaa.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7c94df1a.js",
     "static/js/2.c451dcaa.chunk.js",
     "static/css/main.0cf39198.chunk.css",
-    "static/js/main.a5e3164b.chunk.js"
+    "static/js/main.bc2ff706.chunk.js"
   ]
 }
