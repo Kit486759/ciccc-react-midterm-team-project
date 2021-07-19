@@ -7,7 +7,7 @@ const additionalProducts = [{
   price: 389.99,
   description: "You can do anything with Swotch! Let's dive into dreamy world.",
   category: categoryArr[2],
-  image: "/img/video_game_console.png"
+  image: "/ciccc-react-midterm-team-project/img/video_game_console.png"
 }];
 
 export { categoryArr as default, additionalProducts};

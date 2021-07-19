@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
       <nav>
-        <div className="logo"><Link to={"/"}><img src="/banner.png" alt="logo" /><span>BCshop</span></Link></div>
+        <div className="logo"><Link to={"/"}><img src="/ciccc-react-midterm-team-project/banner.png" alt="logo" /><span>BCshop</span></Link></div>
         <div className="searchBar">
           <input className="searchInput" type="text" placeholder="search item...."
             onChange={(e) => setSearchInput(e.target.value)}></input>
