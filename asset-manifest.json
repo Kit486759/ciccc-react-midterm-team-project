@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ciccc-react-midterm-team-project/static/css/main.d7966bae.chunk.css",
-    "main.js": "/ciccc-react-midterm-team-project/static/js/main.57a463a1.chunk.js",
-    "main.js.map": "/ciccc-react-midterm-team-project/static/js/main.57a463a1.chunk.js.map",
+    "main.css": "/ciccc-react-midterm-team-project/static/css/main.f553c84f.chunk.css",
+    "main.js": "/ciccc-react-midterm-team-project/static/js/main.a5e3164b.chunk.js",
+    "main.js.map": "/ciccc-react-midterm-team-project/static/js/main.a5e3164b.chunk.js.map",
     "runtime-main.js": "/ciccc-react-midterm-team-project/static/js/runtime-main.7c94df1a.js",
     "runtime-main.js.map": "/ciccc-react-midterm-team-project/static/js/runtime-main.7c94df1a.js.map",
     "static/js/2.c451dcaa.chunk.js": "/ciccc-react-midterm-team-project/static/js/2.c451dcaa.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.d5c05bdd.chunk.js": "/ciccc-react-midterm-team-project/static/js/3.d5c05bdd.chunk.js",
     "static/js/3.d5c05bdd.chunk.js.map": "/ciccc-react-midterm-team-project/static/js/3.d5c05bdd.chunk.js.map",
     "index.html": "/ciccc-react-midterm-team-project/index.html",
-    "static/css/main.d7966bae.chunk.css.map": "/ciccc-react-midterm-team-project/static/css/main.d7966bae.chunk.css.map",
+    "static/css/main.f553c84f.chunk.css.map": "/ciccc-react-midterm-team-project/static/css/main.f553c84f.chunk.css.map",
     "static/js/2.c451dcaa.chunk.js.LICENSE.txt": "/ciccc-react-midterm-team-project/static/js/2.c451dcaa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7c94df1a.js",
     "static/js/2.c451dcaa.chunk.js",
-    "static/css/main.d7966bae.chunk.css",
-    "static/js/main.57a463a1.chunk.js"
+    "static/css/main.f553c84f.chunk.css",
+    "static/js/main.a5e3164b.chunk.js"
   ]
 }
