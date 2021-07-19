@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
       <nav>
-        <div className="logo"><Link to={"/"}><img src="/ciccc-react-midterm-team-project/banner.png" alt="logo" /><span>BCshop</span></Link></div>
+        <div className="logo"><Link to={"/ciccc-react-midterm-team-project/"}><img src="/ciccc-react-midterm-team-project/banner.png" alt="logo" /><span>BCshop</span></Link></div>
         <div className="searchBar">
           <input className="searchInput" type="text" placeholder="search item...."
             onChange={(e) => setSearchInput(e.target.value)}></input>
@@ -29,15 +29,15 @@ const Header = () => {
           <div className="divider" >
             {/* <AiOutlineLine className="divider" size={50}/> */}
           </div>
-          <Link to={searchInput === "" ? "/" : "/search/" + searchInput} onClick={clearInput} ><ImSearch className="searchBtn" size={20} color={"gray"} /></Link>
+          <Link to={searchInput === "" ? "/ciccc-react-midterm-team-project/" : "/ciccc-react-midterm-team-project/search/" + searchInput} onClick={clearInput} ><ImSearch className="searchBtn" size={20} color={"gray"} /></Link>
 
         </div>
         <div className="iconWrap">
           <ul onMouseLeave={() => setCategory(false)}>
             <li onMouseEnter={() => setCategory(true)} onClick={()=>setMobileCategory(!mobileCategoryMenu)}>
               <FaBookOpen className="navIcon" /><p>Category</p></li>
-            <li onMouseEnter={() => setCategory(false)}><Link to={"/cart"}><FaShoppingCart className="navIcon" /></Link><p>Cart</p></li>
-            <li onMouseEnter={() => setCategory(false)}><Link to={"/account/"}><FaUserCircle className="navIcon" /></Link>
+            <li onMouseEnter={() => setCategory(false)}><Link to={"/ciccc-react-midterm-team-project/cart"}><FaShoppingCart className="navIcon" /></Link><p>Cart</p></li>
+            <li onMouseEnter={() => setCategory(false)}><Link to={"/ciccc-react-midterm-team-project/account/"}><FaUserCircle className="navIcon" /></Link>
               <p>{user === null ? "Account" : user.providerData[0].displayName}</p></li>
             {categoryMenu === true &&
               <div className="categoryDropdown" >

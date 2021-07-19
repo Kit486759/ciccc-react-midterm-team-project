@@ -56,10 +56,10 @@ const Cart = () => {
                 }, 0)
                 .toFixed(2)}
             </p>
-            <Link to={"/checkout/"} className="checkout-btn">
+            <Link to={"/ciccc-react-midterm-team-project/checkout/"} className="checkout-btn">
               Checkout
             </Link>
-            <Link to={"/"} className="continue-shop-btn">
+            <Link to={"/ciccc-react-midterm-team-project/"} className="continue-shop-btn">
               Continue Shopping
             </Link>
           </div>
@@ -68,7 +68,7 @@ const Cart = () => {
         <main className="no-item-container">
           <div className="no-item-notice-wrap">
             <h1 className="no-item-notice">No Items in Cart.</h1>
-            <Link to={"/"}>Go Back to Main Page</Link>
+            <Link to={"/ciccc-react-midterm-team-project/"}>Go Back to Main Page</Link>
           </div>
         </main>
       )}
