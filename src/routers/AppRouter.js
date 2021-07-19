@@ -16,13 +16,13 @@ const AppRouter = () => (
     <Wrapper>
       <Switch>
         <Route path="/ciccc-react-midterm-team-project/" component={App} exact={true} />
-        <Route path="/detail/:id" component={Detail} />
-        <Route path="/cart" component={Cart} />
-        <Route path="/search/:keywords" component={SearchResult}/>
-        <Route path="/account" component={Account}/>
-        <Route path="/edit_account" component={EditAccount} />
-        <PrivateRoute path="/checkout" component={Checkout} />
-        <Route path="/category/:type" component={Category}/>
+        <Route path="/ciccc-react-midterm-team-project/detail/:id" component={Detail} />
+        <Route path="/ciccc-react-midterm-team-project/cart" component={Cart} />
+        <Route path="/ciccc-react-midterm-team-project/search/:keywords" component={SearchResult}/>
+        <Route path="/ciccc-react-midterm-team-project/account" component={Account}/>
+        <Route path="/ciccc-react-midterm-team-project/edit_account" component={EditAccount} />
+        <PrivateRoute path="/ciccc-react-midterm-team-project/checkout" component={Checkout} />
+        <Route path="/ciccc-react-midterm-team-project/category/:type" component={Category}/>
       </Switch>
     </Wrapper>
   </BrowserRouter>

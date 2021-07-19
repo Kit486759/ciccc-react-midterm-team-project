@@ -42,9 +42,9 @@ const Header = () => {
             {categoryMenu === true &&
               <div className="categoryDropdown" >
                 <ul>
-                  <Link to={"/category/clothes"} style={{ textDecoration: 'none', backgroundColor: 'orange' }} name={"Clothes"}><li>Clothes</li></Link>
-                  <Link to={"/category/accessories"} style={{ textDecoration: 'none' }} name={"Accessories"}><li>Accessories</li></Link>
-                  <Link to={"/category/electronics"} style={{ textDecoration: 'none' }} name={"Electronics"}><li>Electronics</li></Link>
+                  <Link to={"/ciccc-react-midterm-team-project/category/clothes"} style={{ textDecoration: 'none', backgroundColor: 'orange' }} name={"Clothes"}><li>Clothes</li></Link>
+                  <Link to={"/ciccc-react-midterm-team-project/category/accessories"} style={{ textDecoration: 'none' }} name={"Accessories"}><li>Accessories</li></Link>
+                  <Link to={"/ciccc-react-midterm-team-project/category/electronics"} style={{ textDecoration: 'none' }} name={"Electronics"}><li>Electronics</li></Link>
                 </ul>
               </div>
             }
@@ -53,9 +53,9 @@ const Header = () => {
         {mobileCategoryMenu === true &&
         <div className="mobileCategoryDropdown" >
           <ul>
-            <Link to={"/category/clothes"} style={{ textDecoration: 'none', backgroundColor: 'orange' }} name={"Clothes"}><li>Clothes</li></Link>
-            <Link to={"/category/accessories"} style={{ textDecoration: 'none' }} name={"Accessories"}><li>Accessories</li></Link>
-            <Link to={"/category/electronics"} style={{ textDecoration: 'none' }} name={"Electronics"}><li>Electronics</li></Link>
+            <Link to={"/ciccc-react-midterm-team-project/category/clothes"} style={{ textDecoration: 'none', backgroundColor: 'orange' }} name={"Clothes"}><li>Clothes</li></Link>
+            <Link to={"/ciccc-react-midterm-team-project/category/accessories"} style={{ textDecoration: 'none' }} name={"Accessories"}><li>Accessories</li></Link>
+            <Link to={"/ciccc-react-midterm-team-project/category/electronics"} style={{ textDecoration: 'none' }} name={"Electronics"}><li>Electronics</li></Link>
           </ul>
         </div>
 }

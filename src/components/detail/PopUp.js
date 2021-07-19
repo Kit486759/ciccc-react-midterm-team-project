@@ -20,7 +20,7 @@ const PopUp = ({ close, qty, price }) => {
         </span>
       </div>
       <div className="btns-wrap">
-        <Link to={"/cart"}>
+        <Link to={"/ciccc-react-midterm-team-project/cart"}>
           <button className="viewCartBtn">View Cart</button>
         </Link>
         <button className="continueBtn" onClick={close}>

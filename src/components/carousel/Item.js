@@ -9,7 +9,7 @@ const Item = (props) => {
   
   return (
     <div className="item">
-      <Link to={"/detail/" + props.item.id} style={{textDecoration:'none'}}>
+      <Link to={"/ciccc-react-midterm-team-project/detail/" + props.item.id} style={{textDecoration:'none'}}>
         <img
           src={props.item.image}
           onMouseEnter={() => setHover(true)}
@@ -27,7 +27,7 @@ const Item = (props) => {
             <ul>
               <Link
                 style={{ pointerEvents: "auto" }}
-                to={"/category/" + props.item.category}
+                to={"/ciccc-react-midterm-team-project/category/" + props.item.category}
                 style={{
                   pointerEvents: "none",
                   textDecoration: "none",

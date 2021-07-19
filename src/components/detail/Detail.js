@@ -118,7 +118,7 @@ const Detail = (props) => {
     <main className="main-detail-container">
       {chosenProductInfo.product.length !== 0 && (
         <>
-          <Link to="/" className="back-to-main-btn">
+          <Link to="/ciccc-react-midterm-team-project/" className="back-to-main-btn">
             Go Back to Main Page
           </Link>
           <MediaQuery maxDeviceWidth={768}>
