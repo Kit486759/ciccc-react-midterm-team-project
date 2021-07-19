@@ -10,6 +10,7 @@
     "axios": "^0.21.1",
     "dotenv": "^10.0.0",
     "firebase": "^8.6.3",
+    "gh-pages": "^3.2.3",
     "node": "^16.1.0",
     "node-sass": "^6.0.0",
     "react": "^17.0.2",
@@ -27,8 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"yarn build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass -w node-sass ./src/components/App.scss ./src/components/App.css"
   },
   "eslintConfig": {
